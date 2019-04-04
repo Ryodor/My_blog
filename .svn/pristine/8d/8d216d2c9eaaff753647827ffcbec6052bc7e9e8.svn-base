@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<HTML>
+  <head>
+    <meta charset="utf-8" />
+    <title>Maquette</title>
+    <link rel="stylesheet" href="css_maquette.css"/>
+  </head>
+  <body>
+    <div class="titre">
+      <h1>Descendants of Wrath</h1>
+    </div>
+    <div class ="my_picture">
+      <img src="picture/ryad_sous_les_petales_roses.jpeg" class="my_picture" alt="Photo de moi">
+    </div>
+    <h2>SELATNI Ryad</h2>
+    <h2>Je suis un etudiant en premiere annee de prep etna.</h2>
+    <h2>Bienvenue sur ma maquette.</h3>
+    <h3>Ici je ferai le lien entre un jeu et la mythologie dont il est inspire!</h3>
+    <h3>Le jeu que je presenterai sur cette premiere page est :</h3>
+    <a href="http://www.e-capcom.com/asura/"><img src="picture/asura_jacket.jpeg" alt="asuras_jacket"></a>
+<h4>Assura's wrath est un jeu de capcom mettant en scene un dieux trahi et dechu<br />
+  qui dans sa rennaissance se vengera des traitres qui l'ont tuer dans des combats<br />
+  toujours plus epic et spectaculaires!!!!!<br /></h4>
+<h4>Selatni Ryad le 17 octobre 2016</h4>
+<input type="button" name="connexion" value="Connection" onclick="self.location.href='connexion.php'"
+                  style="background-color:red" style="color:white; font-weight:bold"onclick>
+<input type="button" name="inscription" value="Inscription" onclick="self.location.href='inscription.html'"
+       style="background-color:red" style="color:white; font-weight:bold"onclick>
+<input type="button" name="lien fin" value="Quitte" onclick="self.location.href='exit.html'"
+       style="background-color:red" style="color:white; font-weight:bold"onclick>
+<div class="copyright">Copyright © selatn_r - 2016</div>
+</body>
+</HTML>

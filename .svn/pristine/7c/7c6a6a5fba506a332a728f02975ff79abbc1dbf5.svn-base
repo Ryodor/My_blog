@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<HTML>
+  <head>
+    <meta charset="utf-8" />
+    <title>Maquette</title>
+  </head>
+  <link rel="stylesheet" href="css_maquette.css"/>
+  <body>
+    <h1>Good bye!</h1>
+    <h3>Return to Home :</h3>
+    <input type="button" name="lien fin" value="Hello" onclick="self.location.href='monblog[selatn_r].html'"
+	              style="background-color:red" style="color:white; font-weight:bold"onclick><h3>?</h3>
+  </body>
+</HTML>
+

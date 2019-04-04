@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<HTML>
+  <head>
+    <meta charset="utf-8" />
+    <title>Maquette</title>
+  </head>
+  <link rel="stylesheet" href="css_maquette.css"/>
+  <body>
+    
+    <form method="post" action="add_utilisateur.php">
+      <p><h3><label>Login </label><input type="text" name="login"
+				     maxlemght="20" placeholder="Your Login" required /></h3></p>
+      <p><h3><label>Password </label><input type="password" name="password"
+					maxlenght="40" placeholder="Your password" required /></h3></p>
+      <p><h3><label>E-mail </label><input type="email" name="email"
+				       maxlenght="60" placeholder="Valid mail" required /></h3></p>
+      <input type="submit" value="Send" />
+    </form>
+    
+    <h3>Vous reconnecter :</h3>
+    <input type="button" name="lien fin" value="Back" onclick="self.location.href='monblog[selatn_r].html'"
+	   style="background-color:red" style="color:white; font-weight:bold"onclick>
+  </body>
+  </HTML>
